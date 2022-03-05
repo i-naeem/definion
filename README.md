@@ -41,13 +41,13 @@ To run this project you would require Node v14 or above and yarn installed on yo
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repo :fire:
 
    ```sh
    git clone https://github.com/i-naeem/definion.git
    ```
 
-2. Install yarn packages
+2. Install yarn packages :package:
 
    ```sh
    yarn install
@@ -61,9 +61,9 @@ To run this project you would require Node v14 or above and yarn installed on yo
 
 4. Start the build. :sparkles:
 
-```sh
-   yarn build
-```
+    ```sh
+    yarn build
+    ```
 
 <!-- ROADMAP -->
 
