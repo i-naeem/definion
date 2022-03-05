@@ -33,6 +33,12 @@ Definion allows you to enter the word and find the definition of that word. It i
 - [Styled-Components](https://styled-components.com/)
 - [React-Bootstrap](https://react-bootstrap.github.io/)
 
+### What I Learned ?
+
+- React Hooks
+- React Router
+- Using React-Bootstrap with Styled Components
+
 <!-- GETTING STARTED -->
 
 ## Getting Started
