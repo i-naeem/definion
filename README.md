@@ -23,7 +23,7 @@ A simple <em> dictionary </em> to search the definition of a word.
 
 ## About The Project
 
-![Definion Demo Gif](src/images/sample.gif)
+![Definion Demo Picture](public/assets/demo.png)
 
 Definion allows you to enter the word and find the definition of that word. It is very simple dictionary and does exactly what a dictionary should do without any other distraction.
 
