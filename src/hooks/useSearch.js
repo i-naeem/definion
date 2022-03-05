@@ -8,7 +8,8 @@ export const useSearch = (word) => {
 
   useEffect(() => {
     setLoading(true);
-
+    setError(null);
+    setData(null);
     getResults(word)
       .then((result) => setData(result))
       .catch((err) => setError(err))

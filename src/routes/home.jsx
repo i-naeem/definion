@@ -1,14 +1,12 @@
-import { Container, Form, Button, InputGroup } from 'react-bootstrap';
+import { SearchForm } from '../components/Form/SearchForm';
 import { Outlet, useNavigate } from 'react-router-dom';
-import { useState } from 'react';
+import Container from 'react-bootstrap/Container';
 
 export const Home = (props) => {
   const navigate = useNavigate();
-  const [word, setWord] = useState('');
 
-  const onSearch = (event) => {
-    event.preventDefault();
-    navigate('/search/' + word);
+  const onSearch = (searchWord) => {
+    navigate('/search/' + searchWord);
   };
 
   return (
@@ -17,21 +15,9 @@ export const Home = (props) => {
         <h1>Definion</h1>
         <p>A simple dictionary to see the defination of a word.</p>
       </section>
-      <section className="mb-3">
-        <Form onSubmit={onSearch}>
-          <InputGroup>
-            <Form.Control
-              size="lg"
-              value={word}
-              placeholder="Enter a word such as 'love'"
-              onChange={(event) => setWord(event.target.value)}
-            />
 
-            <Button type="submit" size="lg">
-              Define
-            </Button>
-          </InputGroup>
-        </Form>
+      <section className="mb-3">
+        <SearchForm onSearch={onSearch} />
       </section>
 
       <section className="mb-3">
