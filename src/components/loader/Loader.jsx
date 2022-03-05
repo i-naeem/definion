@@ -6,8 +6,8 @@ export const Loader = (props) => {
       <Image
         width="64"
         height="64"
-        alt="Searching for your word..."
         src="/assets/book-loading.gif"
+        alt="Searching for your word..."
       />
     </Container>
   );

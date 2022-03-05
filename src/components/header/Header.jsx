@@ -1,14 +1,13 @@
-import { Navbar, NavbarBrand, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import { Brand } from '../brand/Brand';
 
 export const Header = (props) => {
   return (
     <header>
       <Navbar variant="light" bg="light">
         <Container>
-          <NavbarBrand as={Link} to="/">
-            Definion
-          </NavbarBrand>
+          <Brand />
         </Container>
       </Navbar>
     </header>
