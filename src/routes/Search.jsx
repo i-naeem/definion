@@ -1,14 +1,13 @@
 import { Card, Container } from 'react-bootstrap';
 import { useSearch } from '../hooks/useSearch';
 import { useParams } from 'react-router-dom';
+import { Loader } from '../components/Loader/Loader';
 
 export const Search = (props) => {
   const { word } = useParams();
   const { loading, data, error } = useSearch(word);
 
-  if (loading) {
-    return <h1>Loading...</h1>;
-  }
+  if (loading) return <Loader />;
 
   if (error) {
     console.log(error);
