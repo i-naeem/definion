@@ -3,13 +3,11 @@
 <div align="center">
 
 <a href="https://github.com/i-naeem/definion">
-<img src="public/favicon.ico" alt="Logo" width="80" height="80">
+<img src="public/assets/favicon.ico" alt="Logo" width="80" height="80">
 </a>
 <h3 align="center">Definion</h3>
 <p align="center">
 A simple <em> dictionary </em> to search the definition of a word.
-<br />
-<br />
 <br />
 
 <a href="#">View Demo</a>
