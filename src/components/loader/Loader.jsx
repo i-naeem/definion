@@ -1,4 +1,5 @@
-import { Image, Container } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 
 export const Loader = (props) => {
   return (

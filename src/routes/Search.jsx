@@ -1,11 +1,10 @@
-import { Card } from 'react-bootstrap';
-import { useSearch } from '../hooks/useSearch';
-import { useParams } from 'react-router-dom';
-import { Loader } from '../components/loader/Loader';
-import { Error } from '../components/error/Error';
-import { Speaker } from '../components/speaker/Speaker';
 import { Phonetic } from '../components/phonetic/Phonetic';
 import { Meaning } from '../components/meaning/Meaning';
+import { Loader } from '../components/loader/Loader';
+import { Error } from '../components/error/Error';
+import { useSearch } from '../hooks/useSearch';
+import { useParams } from 'react-router-dom';
+import Card from 'react-bootstrap/Card';
 
 export const Search = (props) => {
   const { word } = useParams();
