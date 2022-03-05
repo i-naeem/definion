@@ -27,7 +27,7 @@ export const SearchForm = ({ onSearch }) => {
           onChange={(event) => setWord(event.target.value)}
         />
 
-        <Button type="submit" size="lg">
+        <Button type="submit" size="lg" variant="dark">
           Define
         </Button>
       </InputGroup>
