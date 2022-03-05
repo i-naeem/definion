@@ -7,7 +7,7 @@ export const Loader = (props) => {
         width="64"
         height="64"
         alt="Searching for your word..."
-        src="/src/assets/book-loading.gif"
+        src="/assets/book-loading.gif"
       />
     </Container>
   );
