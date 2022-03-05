@@ -2,25 +2,23 @@
 <br />
 <div align="center">
 
-  <a href="https://github.com/i-naeem/definion">
-    <img src="public/favicon.ico" alt="Logo" width="80" height="80">
-  </a>
+<a href="https://github.com/i-naeem/definion">
+<img src="public/favicon.ico" alt="Logo" width="80" height="80">
+</a>
+<h3 align="center">Definion</h3>
+<p align="center">
+A simple <em> dictionary </em> to search the definition of a word.
+<br />
+<br />
+<br />
 
-  <h3 align="center">Definion</h3>
+<a href="#">View Demo</a>
+·
+<a href="https://github.com/i-naeem/definion/issues">Report Bug</a>
+·
+<a href="https://github.com/i-naeem/definion/issues">Request Feature</a>
+</p>
 
-  <p align="center">
-  
-    A simple <em> dictionary </em> to search the definition of a word.
-    
-    <br />
-    <br />
-    <br />
-    <a href="#">View Demo</a>
-    ·
-    <a href="https://github.com/i-naeem/definion/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/i-naeem/definion/issues">Request Feature</a>
-  </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
@@ -48,7 +46,6 @@ To run this project you would require Node v14 or above and yarn installed on yo
 1. Clone the repo
 
    ```sh
-   
    git clone https://github.com/i-naeem/definion.git
    ```
 
