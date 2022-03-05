@@ -10,7 +10,7 @@
 A simple <em> dictionary </em> to search the definition of a word.
 <br />
 
-<a href="#">View Demo</a>
+<a href="https://definion.netlify.app/">View Demo</a>
 ·
 <a href="https://github.com/i-naeem/definion/issues">Report Bug</a>
 ·
