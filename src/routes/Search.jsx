@@ -5,6 +5,7 @@ import { Loader } from '../components/loader/Loader';
 import { Error } from '../components/error/Error';
 import { Speaker } from '../components/speaker/Speaker';
 import { Phonetic } from '../components/phonetic/Phonetic';
+import { Meaning } from '../components/meaning/Meaning';
 
 export const Search = (props) => {
   const { word } = useParams();
@@ -31,6 +32,11 @@ export const Search = (props) => {
         <h1 className="mx-2 mb-0 d-inline-block display-2">{result?.word}</h1>
         <Phonetic {...phonetic} />
       </Card.Header>
+      <Card.Body>
+        {result.meanings?.map((meaning, idx) => (
+          <Meaning key={idx} {...meaning} />
+        ))}
+      </Card.Body>
     </Card>
   );
 };
